@@ -1,5 +1,6 @@
 def oxford_comma(array)
   puts array.join("")
-  return array.join(' and ')
+  puts array.join(' and ')
+  return array.size - 1 << "and"
   
 end
