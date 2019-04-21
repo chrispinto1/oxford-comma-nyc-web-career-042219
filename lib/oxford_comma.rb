@@ -8,7 +8,7 @@ def oxford_comma(array)
       i = 0
       string = ""
       while i < array.size
-        string << array.to_s
+        string << array.split(",")
         i+=1
       end
       new_string = string + " and " + array.last
