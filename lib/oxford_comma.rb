@@ -9,7 +9,7 @@ def oxford_comma(array)
       string << array.join(", ")
       string.insert(14, "and ")
       string
-    elsif size == 4
+    elsif size > 3
      return  array.join(",")
     end
 end
