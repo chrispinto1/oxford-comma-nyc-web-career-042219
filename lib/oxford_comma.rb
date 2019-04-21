@@ -7,10 +7,7 @@ def oxford_comma(array)
     elsif size == 3
       i = 0
       string = ""
-      while i < array.size
-        string << array.split(",")
-        i+=1
-      end
+      string << array.join(",")
       new_string = string + " and " + array.last
     end
 end
