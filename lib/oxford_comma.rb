@@ -8,6 +8,6 @@ def oxford_comma(array)
       array.insert(2, "and")
       string = ""
       string << array.join(", ")
-      string.delete(12)
+      string.delete_at(12)
     end
 end
