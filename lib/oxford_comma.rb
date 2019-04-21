@@ -12,7 +12,6 @@ def oxford_comma(array)
     elsif size > 3
     array.insert(size - 1, "and")
      list =  array.join(", ")
-     list[46] = ''
-     list
+     comma = list.index("and")
     end
 end
