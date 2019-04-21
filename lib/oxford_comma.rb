@@ -10,6 +10,6 @@ def oxford_comma(array)
       string.insert(14, "and ")
       string
     elsif size == 4
-    
+      array.join(",")
     end
 end
