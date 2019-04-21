@@ -5,7 +5,6 @@ def oxford_comma(array)
   elsif size == 2
     return array.join(' and ')
     elsif size == 3
-      string = ""
       string << array.join(", ")
       new_string = string + " and " + array.last
     end
