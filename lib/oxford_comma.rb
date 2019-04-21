@@ -12,6 +12,6 @@ def oxford_comma(array)
         string << array.join(", ")
         i+=1
       end
-      
+      string
     end
 end
