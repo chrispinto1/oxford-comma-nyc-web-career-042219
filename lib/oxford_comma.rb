@@ -13,5 +13,6 @@ def oxford_comma(array)
     array.insert(size - 1, "and")
      list =  array.join(", ")
      list[25] = ''
+     list
     end
 end
