@@ -10,6 +10,7 @@ def oxford_comma(array)
       string.insert(14, "and ")
       string
     elsif size > 3
-     return  array.join(", ")
+     list =  array.join(", ")
+     list << and
     end
 end
