@@ -1,7 +1,11 @@
 def oxford_comma(array)
-  puts array.join("")
-  puts array.join(' and ')
-  i = array.size - 1
-  return array[i] << "and"
-  
+  size = array.size
+  if size  == 1
+    return array.join("")
+  elsif size == 2
+    return array.join(' and ')
+    elsif size == 3
+      i = array.size - 1
+      return array[i] << "and"
+    end
 end
