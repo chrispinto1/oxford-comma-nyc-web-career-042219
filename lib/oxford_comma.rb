@@ -5,7 +5,11 @@ def oxford_comma(array)
   elsif size == 2
     return array.join(' and ')
     elsif size == 3
-      i = array.size - 1
-      new_array = array[i] << "and"
+      i = 0
+      string = ""
+      while i < array.size
+        string << array
+      end
+      new_string = string + " and " + array.last 
     end
 end
