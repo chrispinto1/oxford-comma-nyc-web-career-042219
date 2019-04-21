@@ -14,7 +14,7 @@ def oxford_comma(array)
      list =  array.join(", ")
      comma = list.index("and")
      puts list
-     list[5] = ''
+     list[comma + 3] = ''
      list
     end
 end
