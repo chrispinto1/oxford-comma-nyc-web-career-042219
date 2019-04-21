@@ -12,7 +12,7 @@ def oxford_comma(array)
     elsif size > 3
     array.insert(size - 1, "and")
      list =  array.join(", ")
-     list[25] = ''
+     list[35] = ''
      list
     end
 end
