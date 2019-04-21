@@ -10,6 +10,7 @@ def oxford_comma(array)
       i = 0
       while i < 2
         string << array.join(", ")
+        i+=1
       end
       
     end
