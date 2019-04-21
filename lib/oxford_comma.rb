@@ -9,7 +9,6 @@ def oxford_comma(array)
       string = ""
       while i < array.size
         string << array.join(",")
-      endstring = string + " and " + array.last
-      new_ 
+      end
     end
 end
